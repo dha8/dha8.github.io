@@ -5,7 +5,9 @@
  * Project Name: NYC Design
  * Version: 1.0
  * Date: 04-20-2014
- * URL: 
+ * URL:
+ *
+ * used for personal portfolio, modified by: Dawith Ha 
  */
 
 
@@ -104,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: url(../img/diamond_upholstery.png) repeat center top;
 	margin-top: -70px;
 	padding-top: 180px;
-	text-align:left;
+	text-align: left;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
@@ -231,7 +233,11 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.4;
 }
 
-.inline { /*not working.. icons not layed horizontally*/
+.caption {
+	font-size: 12px;
+}
+
+.inline {
 	display: inline-block; 
 	*display: inline; 
 	zoom: 1; 
@@ -240,6 +246,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .verticalLine {
-  border-left: thick solid #4a4a4a;
-  padding-left: 20px;
+  border-left: solid #2d2d2d;
 }
