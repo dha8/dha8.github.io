@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #2d2d2d;
 }
 
-
 .navbar-brand {
 	font-weight: 700;
 }
@@ -168,8 +167,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footerwrap {
-	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 40px;
 	background-color: #2f2f2f;
 }
 
@@ -235,7 +234,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+#caption {
+	font-size: 14px;
+	font-style: italic;
+	color: #b2b2b2;
+}
 
+.worksheader{
+	padding-top: 16px;
+}
 
 /* Gallery */
 .gallery {
@@ -244,10 +251,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
-}
-
-.caption {
-	font-size: 12px;
 }
 
 .inline {
