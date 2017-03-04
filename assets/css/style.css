@@ -103,7 +103,12 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/diamond_upholstery.png) repeat center top;
+	background: 
+	  linear-gradient(
+	    rgba(0, 0, 0, 0), 
+	    rgba(0, 0, 0, 0)
+      ),
+      url(../img/diamond_upholstery.png) repeat center top;
 	margin-top: -70px;
 	padding-top: 180px;
 	text-align: left;
@@ -137,6 +142,14 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap h4 {
 	font-weight: 400;
 	color: #2d2d2d;
+}
+
+#bottomline {
+	background: url(../img/diagonal_line.jpg) repeat center top;
+	background-size: 10%;
+	min-height: 12px;
+	margin-top: 3px;
+	opacity: 0.2;
 }
 
 #social {
