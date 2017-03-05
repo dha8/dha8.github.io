@@ -253,6 +253,16 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.4;
 }
 
+.blk {
+	color: #2f2f2f;
+}
+
+.img-circle{
+	width: 250px;
+	height: 250px;
+    border-radius: 50%;
+}
+
 .inline {
 	display: inline-block; 
 	*display: inline; 
